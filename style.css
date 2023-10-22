@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    min-height: 3000px;
+}
+*{
+    margin: 0;
+
+    padding: 0;
+    outline: 0;
+    border: 0;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar .logo-navbar{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 1000;
+    color:aqua ;
+}
+.navbar .logo-navbar span{
+    color:aquamarine;
+    display: inline-block;
+     
+}
+.navbar .navigation-navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .navigation-navbar a:hover{
+    color: coral;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('img/wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about{
+    color: white;
+    padding-top: 4rem;
+}
+.about h1, .about{
+    text-align: center;
+    font-size: 1.5rem;
+} 
+.about .row{
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 200px;
+}
+
+.about .row .img-about img{
+    justify-content: center;
+    width: 50%;
+}
+.about .row .img-about p{
+    padding-top: 10px;
+}
+.weap{
+    color: white;
+    padding-top: 4rem;
+}
+.weap h1, .weap{
+    text-align: center;
+    font-size: 1.5rem;
+} 
+.weap .row{
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 200px;
+}
+
+.weap .row .img-weap img{
+    justify-content: center;
+    width: 50%;
+}
+.weap .row .img-weap p{
+    padding-top: 10px;
+}
